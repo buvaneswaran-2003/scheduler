@@ -1,0 +1,231 @@
+[
+    {
+      "location": "Aranthangi",
+      "address": "S.E.T.C Reservation Centre Aranthangi Bus stand"
+    },
+    {
+      "location": "Bangalore - Shanti Nagar",
+      "address": "S.E.T.C, Reservation Counter, BMTC Bus Stand, Shanti Nagar"
+    },
+    {
+      "location": "Chennai - CMBT",
+      "address": "CMBT, Mofussil Bus Stand, Koyambedu, Chennai - 600 107"
+    },
+    {
+      "location": "Chennai - Perungalathur",
+      "address": "Perungalathur Bus Stand, S.E.T.C, Counter, Chennai"
+    },
+    {
+      "location": "Chennai - Tambaram BS",
+      "address": "S.E.T.C, Bus Stand, Tambaram, Chennai - 45"
+    },
+    {
+      "location": "Chennai - Thiruvanmiyur",
+      "address": "No.58, Basement Of Masjid Complex, Opp Tiruvanmayiur Rto Office, Chennai"
+    },
+    {
+      "location": "Chidambaram",
+      "address": "S.E.T.C, Bus stand  Chidambaram"
+    },
+    {
+      "location": "Coimbatore",
+      "address": "S.E.T.C, Bus Stand, Gandhipuram, Coimbatore - 641 044."
+    },
+    {
+      "location": "Cuddalore",
+      "address": "S.E.T.C, Bus Stand, Cuddalore"
+    },
+    {
+      "location": "Cumbam",
+      "address": "S.E.T.C, Reservation Counter, Muncipal Bus Stand, Cumbam"
+    },
+    {
+      "location": "Devakottai",
+      "address": "Devakottai Bus Stand, Devakottai - 630 302"
+    },
+    {
+      "location": "Dindugul",
+      "address": "S.E.T.C, Bus Stand, Dindigul"
+    },
+    {
+      "location": "Ernakulam Bus Stand",
+      "address": "KSRTC, Bus Stand, Ernakulam - 682 035."
+    },
+    {
+      "location": "Gudalur (Ooty)",
+      "address": "12/849, Opp To New Bus Stand, Mysore Road, Gudalur (Ooty)"
+    },
+    {
+      "location": "Hosur",
+      "address": "New Bus Stand, Municipal Bus Stand, Hosur"
+    },
+    {
+      "location": "Karur",
+      "address": "S.E.T.C, Reservation Counter, Karur Central Busstand"
+    },
+    {
+      "location": "Kodaikanal",
+      "address": "Shop No: 36, New Bus Stand Complex, 1st Floor, Kodaikanal"
+    },
+    {
+      "location": "Kovilpatti",
+      "address": "5, Anna Bus Stand, Kovilpatti Busstand"
+    },
+    {
+      "location": "Kumbakonam",
+      "address": "Municipal New Bus Stand, Kumbakonam - 612 001."
+    },
+    {
+      "location": "Madurai - Mattuthavani",
+      "address": "Mattuthavani Bus Stand, Madurai - 625 007."
+    },
+    {
+      "location": "Madurai - Periyar-BS",
+      "address": "Periyar Bus Stand, Madurai - 625 003."
+    },
+    {
+      "location": "Marthandam",
+      "address": "Municipal Bus Stand, Marthandam - 629 165."
+    },
+    {
+      "location": "Myladuthurai",
+      "address": "Municipal New Bus Stand, Mayiladuthurai - 609001."
+    },
+    {
+      "location": "Nagapttinam",
+      "address": "Municipal Bus Stand, Velippalayam, Nagapattinam - 611 001"
+    },
+    {
+      "location": "Nagercoil - Vadacherry",
+      "address": "Christopher Bus Stand, Vadaseri, Nagercoil - 629 001"
+    },
+    {
+      "location": "Namakkal",
+      "address": "Namakkall Bus Stand, Namakkal - 637 001"
+    },
+    {
+      "location": "Neyveli",
+      "address": "Neyveli Bus Stand, Neyveli Township - 607 803"
+    },
+    {
+      "location": "Ooty",
+      "address": "S.E.T.C, Reservation Counter, Muncipal Bus Stand, Ooty"
+    },
+    {
+      "location": "Palani",
+      "address": "S.E.T.C, Reservation Counter, Muncipal Bus Stand, Palani"
+    },
+    {
+      "location": "Paramakudi",
+      "address": "S.E.T.C, Reservation Counter, Paramakkudi Busstand"
+    },
+    {
+      "location": "Pollachi",
+      "address": "S.E.T.C, Reservation Counter, Muncipal Bus Stand, Pollachi"
+    },
+    {
+      "location": "Poonamaravathy",
+      "address": "No.100, Nangu Road, Pon-Pudupettai, Ponnamaravathi, - 622 408"
+    },
+    {
+      "location": "Puducherry",
+      "address": "Rajiv Ghandhi Central Bus Stand, Maraimalai Adigal Salai, Puducherry - 605 001"
+    },
+    {
+      "location": "Rajapalayam",
+      "address": "S.E.T.C, Reservation Counter, Muncipal Bus Stand, Rajapalyam"
+    },
+    {
+      "location": "Rameswaram",
+      "address": "Municipal Bus Stand, Rameswaram - 623526"
+    },
+    {
+      "location": "Ramnad",
+      "address": "S.E.T.C, Reservation Counter, Muncipal Bus Stand, Ramnad"
+    },
+    {
+      "location": "Salem",
+      "address": "Corporation New Bus Stand, Achavan Lake, Salem - 636 004."
+    },
+    {
+      "location": "Sayalkudi",
+      "address": "S.E.T.C, Reservation Counter, Bus Stand, Sayalkudi"
+    },
+    {
+      "location": "Sivakasi",
+      "address": "N R K Rajarathinam, Bus Stand Complex, Sivakasi - 626 189"
+    },
+    {
+      "location": "Thanjavur",
+      "address": "S.E.T.C, Bus Stand, Thanjavur - 613 001"
+    },
+    {
+      "location": "Theni",
+      "address": "S.E.T.C, Bus Stand, Theni"
+    },
+    {
+      "location": "Thysayanvilai",
+      "address": "S.E.T.C, Bus Stand, Thysayanvilai"
+    },
+    {
+      "location": "Tiruchendur",
+      "address": "10, Municipal Busstand Shoping Complex, Tiruchendur - 628 215"
+    },
+    {
+      "location": "Tirunelveli - New Bus stand",
+      "address": "Municipal Old Bus Stand, Tirunelveli Junction, Tirunelveli - 627 001"
+    },
+    {
+      "location": "Tirupathi",
+      "address": "Srinivasa Bus Stand, Apsrtc Bus Station, Tirupathi - 517501."
+    },
+    {
+      "location": "Tiruthuraipoondi",
+      "address": "GG Complex, New Bus Stand, Thiruthuraipoondi"
+    },
+    {
+      "location": "Tiruvarur",
+      "address": "S.E.T.C, Reservation centre, Municipal Bus Stand, Tiruvarur"
+    },
+    {
+      "location": "Trichy - MBS",
+      "address": "S.E.T.C, Reservation centre, Muncipal Bus Stand, Trichy - 620 001."
+    },
+    {
+      "location": "Trivandrum",
+      "address": "K.S.R.T.C, Bus Stand, Thambanur, Tiruvanandapuram - 695 502."
+    },
+    {
+      "location": "Tuticorin Bus Stand",
+      "address": "S.E.T.C, Reservation Centre, New Bus Stand, Tuticorin - 628 002."
+    },
+    {
+      "location": "Udangudi",
+      "address": "S.E.T.C, Reservation Centre, Mutharam Travels, Bus Stand Building, Udankudi"
+    },
+    {
+      "location": "Udumalaipet",
+      "address": "S.E.T.C, Reservation Centre, 21/3, Bye Pass Road, Near New Busstand, Udumalpet - 642126"
+    },
+    {
+      "location": "Usilampatti",
+      "address": "S.E.T.C, Reservation Centre, Near Usilampatti Bus Stand, Usilampatti - 625527"
+    },
+    {
+      "location": "Valliyoor (Nagercoil)",
+      "address": "S.E.T.C Reservation Counter, Muncipal Bus Stand, Valliyur"
+    },
+    {
+      "location": "Vedaranyam",
+      "address": "S.E.T.C Reservation Counter, Opp Bus Stand, Vedaranyam"
+    },
+    {
+      "location": "Velankannai",
+      "address": "S.E.T.C, Bus Stand, Velankanni"
+    },
+    {
+      "location": "Virudhunagar",
+      "address": "S.E.T.C Reservation Counter, Near New Bus Stand, Virudhanagar"
+    }
+  ]
+  

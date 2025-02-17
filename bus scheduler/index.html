@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="icon" type="image/png" href="logo.png">
+  <title>Bus Scheduler</title>
+</head>
+<body>
+  <header>
+    
+    <h1>Bus Scheduler</h1>
+  </header>
+  
+  <center>
+  <nav>
+    <ul>
+      
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#services">Bus Services</a></li>
+      <li><a href="#resevation">Reservation Centers</a></li>
+      <li><a href="#booking">Book a Ticket</a></li>
+      <li><a href="#terms">Terms and Conditions</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </nav>
+</center>
+  <main>
+    <section id="home" class="tab-content">
+      <h1>Welcome to Bus Scheduler</h1>
+      <p>Find the bus timings and destinations for your journey. Whether you are a daily commuter or planning a special trip, Bus Scheduler is here to make your travel experience seamless and convenient. Explore our website to discover bus schedules, book tickets, and stay informed about our services.</p>
+      <center>
+      <h1>Key Features</h1>
+      
+      <div class="feature">
+        <i class="fas fa-route"></i>
+        <h2>Route Information</h2>
+        <p>Know the bus route and stops in detail</p>
+      </div>
+      <div class="feature">
+        <i class="fas fa-heart"></i>
+        <h2>Save Your Favourites</h2>
+        <p>Save your favourite buses or routes by bookmarking them</p>
+      </div>
+      <div class="feature">
+        <i class="fas fa-clock"></i>
+        <h2>Better Travel Planning</h2>
+        <p>Plan better with exhaustive details of buses</p>
+      </div>
+      <div class="feature">
+        <i class="fas fa-share-alt"></i>
+        <h2>Share It With Peers</h2>
+        <p>Share the details of buses with your friends</p>
+      </div>
+    </center>
+    </section>
+    <section id="about" class="tab-content">
+      <h2>About Us</h2>
+      <p>Provide information about your bus service and company.</p>
+    </section>
+    <section id="services" class="tab-content">
+      <center><h1>Bus Services</h1></center>
+      <table id="busListTable">
+        <thead>
+          <tr>
+            <th><h3>Bus Number</h3></th>
+            <th><h3>Bus Name</h3></th>
+            <th><h3>Timings</h3></th>
+            <th><h3>Places</h3></th>
+            
+          </tr>
+        </thead>
+        <tbody id="busListBody"></tbody>
+      </table>
+    </section>
+    <section id="resevation" class="tab-content">
+      <h2>Reservation Centers</h2>
+      <table id="reservationTable">
+          <thead>
+              <tr>
+                  <th>Location</th>
+                  <th>Address</th>
+              </tr>
+          </thead>
+          <tbody id="reservationTableBody"></tbody>
+      </table>
+  </section>
+  
+    <section id="booking" class="tab-content">
+      <div id="bookingFormBooking">
+        <center>
+          <h3>Book a Ticket</h3>
+          <form id="ticketFormBooking" onsubmit="return submitForm()">
+            <label for="fromDropdown">From:</label>
+            <select id="fromDropdown" name="from"></select>
+            <br>
+            <label for="toDropdown">To:</label>
+            <select id="toDropdown" name="to"></select>
+            <br>
+            <label for="busSelectBooking">Select Bus:</label>
+            <select id="busSelectBooking" name="busSelectBooking"></select>
+            <br>
+            <label for="firstNameInputBooking">First Name:</label>
+            <input type="text" id="firstNameInputBooking" name="firstNameInputBooking" required placeholder="First Name">
+            <label for="lastNameInputBooking">Last Name:</label>
+            <input type="text" id="lastNameInputBooking" name="lastNameInputBooking" required placeholder="Last Name">
+            <br>
+            <label for="emailInputBooking">Your Email:</label>
+            <input type="email" id="emailInputBooking" name="emailInputBooking" required placeholder="@gmail.com">
+            <br>
+            <label for="genderSelect">Gender:</label>
+            <select id="genderSelect" name="genderSelect" required>
+              <option value="" disabled selected>Select your gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+            <br>
+            <label for="numberOfTickets">Number of Tickets:</label>
+            <input type="number" id="numberOfTickets" name="numberOfTickets" min="1" required>
+            <br>
+            <label for="ticketType">Ticket Type:</label>
+            <select id="ticketType" name="ticketType" required>
+              <option value="" disabled selected>Select ticket type</option>
+              <option value="standard">Standard</option>
+              <option value="premium">Premium</option>
+              <option value="vip">VIP</option>
+            </select>
+            <br>
+            <label for="citizenType">Citizen Type:</label>
+            <select id="citizenType" name="citizenType" required>
+              <option value="" disabled selected>Select citizen type</option>
+              <option value="child">Child</option>
+              <option value="adult">Adult</option>
+              <option value="senior">Senior Citizen</option>
+            </select>
+            <br>
+            <label for="tripType">Trip Type:</label>
+            <select id="tripType" name="tripType" onchange="showReturnDate()">
+              <option value="oneWay" selected>One Way</option>
+              <option value="return">Return</option>
+            </select>
+            <br>
+            <label for="departureDate">Departure Date:</label>
+            <input type="date" id="departureDate" name="departureDate" placeholder="dd/mm/yyyy" required>
+            <br>
+            <label for="returnDate" id="returnDateLabel" style="display: none;">Return Date:</label>
+            <input type="date" id="returnDate" name="returnDate" placeholder="dd/mm/yyyy" style="display: none;">
+            <br>
+            <br>
+            <button type="submit" class="btn" onclick="openPopup()">Book Now</button>
+            <div class="popup" id="popup">
+              <h2>Thank you for Booking</h2>
+              <p>Ticket booked successfully! Check your email for details.</p>
+              <button type="button" onclick="closePopup()">Close</button>
+            </div>
+          </form>
+        </center>
+      </div>
+    </section>
+    
+    
+    
+      </div>
+    </section>
+    <section id="terms" class="tab-content">
+      <h2>Terms and Conditions</h2>
+      <p>Include terms and conditions for using your bus service.</p>
+    </section>
+    <section id="contact" class="tab-content">
+      <h2>Contact Us</h2>
+      <p>Include contact information and a form to contact your company.</p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+  
+</body>
+</html>

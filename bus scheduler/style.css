@@ -1,0 +1,346 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ecf0f1;
+}
+
+header {
+  background-color: #ffffff;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+header img {
+  width: 2em; /* Set the width of the image to match the font size of h1 */
+  height: auto; /* Maintain the aspect ratio */
+  margin-right: 100em; /* Optional: Add some spacing between the image and the text */
+}
+nav {
+  background-color: #3498db;
+  padding: 15px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #000000;
+}
+
+main {
+  padding: 30px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #333;
+}
+
+#busList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.busCard {
+  border: 2px solid #ddd;
+  padding: 15px;
+  margin: 15px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.busCard h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.busCard p {
+  margin: 0;
+  color: #555;
+}
+
+nav input {
+  width: calc(100% - 40px);
+  padding: 12px 20px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  background-color: #fff;
+  background-image: url('search.png');
+  background-repeat: no-repeat;
+  background-position: 95% center;
+  background-size: 20px;
+}
+
+select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+}
+
+#busListBody {
+  width: 100%; /* Ensure the table occupies the entire width */
+  border-collapse: collapse; /* Ensure seamless borders between cells */
+  margin-top: 20px; /* Margin for spacing */
+}
+
+#busListBody th, #busListBody td {
+  border: 1px solid #ddd; /* Border for cells */
+  padding: 8px; /* Padding for content */
+  text-align: left; /* Align text to the left */
+}
+
+#busListBody th {
+  background-color: #f2f2f2; /* Background color for header cells */
+}
+
+#busListBody {
+  vertical-align: top;
+}
+
+#busList {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.busCard {
+  border: 2px solid #ddd;
+  padding: 15px;
+  margin: 15px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add these styles for the booking tab section */
+#bookingFormBooking {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#ticketFormBooking {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#ticketFormBooking label {
+  display: block;
+  text-align: left;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+#ticketFormBooking select,
+#ticketFormBooking input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#ticketFormBooking button {
+  background-color: #ffffff;
+  color: #3498db;
+  padding: 12px 20px;
+  border: 1px solid #3498db;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#ticketFormBooking button:hover {
+  padding:10px 30px;
+  background-color: #267bbf;
+  border:0;
+  color: #ffffff;
+  outline:none;
+  cursor:pointer;
+  font-size:20px;
+  font-weight:450px;
+  border-radius:25px;
+}
+
+#confirmationMessageBooking {
+  color: #2ecc71;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.popup {
+  width: 400px;
+  background: #ffffff;
+  border-radius: 6px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #000000;
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
+
+.open-popup {
+  visibility: visible;
+}
+
+.popup h2 {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 30px 0 10px;
+}
+#home {
+  display: flex;
+  flex-direction: column;
+  
+  padding: 20px;
+}
+
+h1 {
+  color: #3498db;
+}
+
+p {
+  color: #000000;
+  margin: 10px 0;
+}
+.features-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.feature {
+  width: calc(48% - 20px); /* Adjust the width based on your preference */
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 112, 149, 0.2);
+  background-color: #e0ecf1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.feature:hover {
+  transform: scale(1.05);
+}
+
+.feature i {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #007095;
+}
+
+.feature h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.feature p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .feature {
+    width: 100%;
+  }
+}
+/* Style for the contact icons */
+.contact-item {
+  margin-bottom: 10px;
+}
+
+.contact-item a {
+  color: #333; /* Change the color as needed */
+  text-decoration: none;
+  display: inline-block;
+}
+
+.contact-item a:hover {
+  color: #007bff; /* Change the color for hover effect */
+}
+
+.contact-item i {
+  margin-right: 10px;
+}
+.contact-item {
+  margin-bottom: 10px;
+}
+
+.contact-item i {
+  margin-right: 10px;
+}
+
+.contact-item a {
+  color: #333;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.contact-item a:hover {
+  color: #007bff;
+}
+/* Style for the reservation centers table */
+#reservationTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#reservationTable th,
+#reservationTable td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+#reservationTable th {
+  background-color: #f2f2f2;
+}
+
+#reservationTable tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
